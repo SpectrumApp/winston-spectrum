@@ -1,0 +1,41 @@
+{
+  "name": "winston-spectrum",
+  "description": "A SpectrumApp transport for winston",
+  "version": "0.0.1",
+  "author": "Flavio Curella <flavio@revsys.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/SpectrumApp/winston-spectrum.git"
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston"
+  ],
+  "dependencies": {
+    "es6-promise": "3.2.x",
+    "isomorphic-fetch": "2.2.x",
+    "json-stringify-safe": "5.0.x",
+    "lodash": "4.15.x",
+    "node-uuid": "1.4.x",
+    "winston": "1.0.x"
+  },
+  "devDependencies": {
+    "assert": "1.4.x",
+    "fetch-mock": "5.1.x",
+    "mocha": "3.0.x",
+    "sinon": "1.17.x"
+  },
+  "peerDependencies": {
+    "winston": ">=0.5.0 <3.0.0"
+  },
+  "main": "./lib/winston-spectrum",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT"
+}
