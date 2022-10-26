@@ -1,3 +1,7 @@
+## UPATE
+
+Spectrum is no longer in active development.  If you have any questions or concerns please contact us at https://revsys.com
+
 A [winston][0] transport for [SpectrumApp][1]
 
 ## Installation
